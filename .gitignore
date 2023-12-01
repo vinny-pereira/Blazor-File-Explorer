@@ -1,0 +1,129 @@
+﻿# Directories #
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Tt]est[Rr]esults/
+
+# Files #
+*.user
+*.suo
+*.userprefs
+*.sln.docstates
+*.userosscache
+*.slnx.sqlite
+*.tlog
+*.vs/
+*.vscode/
+*.log
+*.cache
+*.crashreport
+*.csproj.DotSettings
+*.csproj.DotSettings.user
+*.pidb
+*.swp
+*.swo
+*.tmp
+*.temp
+*.TMP
+*.TEMP
+*.o
+*.obj
+*.pch
+*.ipch
+*.pgc
+*.pgd
+*.rsp
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+*.bsc
+*.ilk
+*.tlb
+*.tlh
+*.bak
+*.bak2
+*.dbmdl
+*.dbproj.schemaview
+*.pfx
+*.publishsettings
+*.[Pp]ublish.xml
+*.psess
+*.vsp
+*.vspx
+*.sap
+*.docstates
+
+# ReSharper #
+_ReSharper*/
+*.ReSharper
+*.ReSharper.user
+
+# Visual Studio Code #
+.history/
+.settings/
+
+# Rider #
+.idea/
+
+# Visual Studio #
+.vs/
+
+# User-specific files #
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# MonoDevelop/Xamarin Studio #
+*.userprefs
+
+# Build results #
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Tt]est[Rr]esults/
+
+# NuGet #
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.g.targets
+# Tooling #
+packages/
+# Since NuGet 3.x, package restore is done automatically, so "packages/" folders can be ignored
+# You can choose to keep tracking them if you want, but in general, they should be excluded
+
+# .NET Core #
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/Properties/launchSettings.json
+
+# ASP.NET Scaffolding #
+ScaffoldingReadMe.txt
+
+# Others #
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+node_modules/
+orleans.codegen.cs
+
+# Include DLLs if they are needed #
+# !**/x64/**/*.dll
+# !**/x86/**/*..dll
+
+# End of File #
