@@ -1,0 +1,21 @@
+﻿@using Blazor_File_Explorer.Data
+
+<ul>
+    @foreach(var data in _dataSource)
+    {
+        <li>@data</li>
+    }
+</ul>
+
+@code {
+    [Parameter] public required string Root { get; set; }
+    [Parameter] public required IDataAdaptor DataAdaptor { get; set; }
+    
+    private List<string> _dataSource;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var query = await DataAdaptor.ReadAsync(Root);
+        _dataSource = query.ToList();
+    }
+}
